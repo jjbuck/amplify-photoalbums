@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 
 import Amplify, { Analytics, API, Auth, graphqlOperation, Storage } from 'aws-amplify';
 //import API, {graphqlOperation} from '@aws-amplify/api'
-import Storage from '@aws-amplify/storage'
+//import Storage from '@aws-amplify/storage'
 import aws_exports from './aws-exports'
 
 import {S3Image, withAuthenticator} from 'aws-amplify-react'
