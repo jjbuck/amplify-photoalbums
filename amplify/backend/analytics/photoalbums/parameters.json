@@ -1,0 +1,21 @@
+{
+    "appName": "photoalbums",
+    "roleName": "pinpointLambdaRolee2007a07",
+    "cloudformationPolicyName": "cloudformationPolicye2007a07",
+    "cloudWatchPolicyName": "cloudWatchPolicye2007a07",
+    "pinpointPolicyName": "pinpointPolicye2007a07",
+    "authPolicyName": "pinpoint_amplify_e2007a07",
+    "unauthPolicyName": "pinpoint_amplify_e2007a07",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

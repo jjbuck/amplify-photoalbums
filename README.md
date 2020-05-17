@@ -1,3 +1,9 @@
+This is a full-stack web app built with AWS Amplify based on https://amplify-workshop.go-aws.com/.
+
+
+
+# Appendix
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
